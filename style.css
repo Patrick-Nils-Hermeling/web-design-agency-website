@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 50px 50px 0 50px;
+  background-color: #AAC4FF;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  color: aliceblue;
+}
+
+.presentation {
+  text-align: center;
+}
+
+h2 {
+  color:aliceblue ;
+  font-size: 2rem;
+}
+
+.logo {
+  font-size: 3rem;
+  background-color: rgb(89, 89, 210) ;
+  padding-left: 15px;
+  width: 300px;
+}
+
+footer {
+  text-align: right;
+  color: aliceblue;
+}
+
+.tile-image1 {
+  height: 200px;
+  width: 300px;
+  float: left;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 5%;
+  margin-right: 3%;
+}
+
+.tile-image2 {
+  height: 200px;
+  width: 300px;
+  float: left;
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+  border-radius: 5%;
+}
+
+.left {
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+span {
+  color: rgb(89, 89, 210);
+}
+
+
+@media (max-width:648px) {
+  .left {
+    float: none;
+    
+  }
+
+  .logo {
+    text-align: left;
+    width: 300px;
+  }
+
+  .presentation {
+    text-align: center;
+    position: relative;
+    right: 30px;
+  }
+
+  .right {
+    float: none;
+ 
+  }
+  .main, {
+    text-align: justify;
+  }
+
+  .tile-image1, .tile-image2 {
+    width: 450px;
+    height: 250px;
+  }
+
+  .card-title, .card-text {
+    position: relative;
+    left: 30px;
+    width: 400px;
+
+  }
+
+  .card-title {
+    position: relative;
+    top: 15px;
+    text-align: center;
+  }
+  
+ 
+  }
+
+
+
+
+
